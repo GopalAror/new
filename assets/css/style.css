@@ -760,10 +760,6 @@ nav ul li a:hover::before {
         margin-top: 200px !important;
     }
 
-    .bg-white1 {
-        background: white;
-        height: 2100px !important;
-    }
 
     .white-line3 {
         position: absolute;
@@ -784,12 +780,6 @@ nav ul li a:hover::before {
     .mtop-100 {
         margin-top: 50px;
     }
-
-    .bg-white1 {
-        background: white;
-        height: 1210px;
-    }
-
     .para-head {
         text-align: center;
     }
