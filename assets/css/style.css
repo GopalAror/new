@@ -809,6 +809,7 @@ nav ul li a:hover::before {
     .ptop-50 {
         padding-top: 50px;
     }
+   
 }
 
 @media(max-width:1012px) {
@@ -824,6 +825,9 @@ nav ul li a:hover::before {
         right: -100%;
         transition: all 1000ms linear;
         background-color: rgb(105, 132, 132);
+    }
+    .bg-white1{
+        background: white;
     }
 
     .mobileView.show {
