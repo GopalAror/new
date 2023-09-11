@@ -37,6 +37,10 @@ nav ul li a:hover::before {
     left: 0;
 }
 
+.logo {
+    width: 156px;
+}
+
 .gap-40 {
     gap: 40px;
 }
@@ -139,7 +143,7 @@ nav ul li a:hover::before {
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
-    line-height: 121.5%;
+    line-height: 180%;
     margin-bottom: 0 !important;
 }
 
@@ -170,10 +174,13 @@ nav ul li a:hover::before {
     right: 0;
 }
 
-.pos-errow {
-    position: absolute;
-    left: 0;
-    top: 98%;
+.pt-168 {
+    padding-top: 168px;
+}
+
+.errow {
+    margin-top: 30px;
+    margin-bottom: 85px;
 }
 
 .btn2 {
@@ -208,8 +215,7 @@ nav ul li a:hover::before {
 .bg-head {
     background-image: url(../image/headimg.png);
     background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 100vh;
+    background-size: 100% 100%;
 }
 
 .ellepis1 {
@@ -220,6 +226,7 @@ nav ul li a:hover::before {
     position: absolute;
     left: -4%;
     border-radius: 50%;
+    z-index: -1;
 }
 
 .ellepis2 {
@@ -231,6 +238,7 @@ nav ul li a:hover::before {
     right: -4%;
     bottom: 42%;
     border-radius: 50%;
+    z-index: -1;
 }
 
 .ellepis3 {
@@ -241,6 +249,7 @@ nav ul li a:hover::before {
     position: absolute;
     left: -4%;
     top: 35%;
+    z-index: -1;
     border-radius: 50%;
 }
 
@@ -253,6 +262,7 @@ nav ul li a:hover::before {
     right: -10%;
     bottom: 65%;
     border-radius: 50%;
+    z-index: -1;
 }
 
 .footline {
@@ -367,27 +377,6 @@ nav ul li a:hover::before {
     max-width: 570px;
 }
 
-.btn5:hover {
-    background-color: black;
-    color: #f3f5fa;
-    border: 1px solid transparent;
-}
-
-.btn3:hover {
-    color: #FFF;
-    background: transparent;
-    border: 1px solid #FFF;
-    border: 1px solid transparent;
-
-}
-
-.btn4:hover {
-    background: #FFF;
-    border: #FFF;
-    color: #040404;
-    border: 1px solid transparent;
-}
-
 .mb-120 {
     margin-bottom: 120px;
 }
@@ -453,15 +442,15 @@ nav ul li a:hover::before {
 }
 
 .white-line1 {
-    top: 45px;
+    top: -25px;
     position: absolute;
-    right: 30%;
+    right: 10%;
 }
 
 .white-line2 {
-    top: 40px;
+    top: -25px;
     position: absolute;
-    right: 30%;
+    right: -40%;
 }
 
 .sec3-card {
@@ -471,9 +460,18 @@ nav ul li a:hover::before {
     align-items: flex-start;
     gap: 10px;
     border-radius: 12px;
-
+height: 100%;
 }
-
+.top-line{
+    left: 25px;
+    position: absolute;
+    top: -13px;
+}
+.bottom-line1{
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+}
 .sec3-p1 {
     color: var(--White, #FFF);
     font-family: Space Grotesk;
@@ -493,12 +491,16 @@ nav ul li a:hover::before {
     line-height: 150%;
     opacity: 0.7;
 }
-
+.pt-56{
+    padding-top: 56px;
+}
+.pb-121{
+    padding-bottom: 121px;
+}
 .sec2-card {
     display: flex;
     padding: 16px;
     flex-direction: column;
-    gap: 15px;
     border-radius: 12px;
     border: 1px solid rgba(255, 255, 255, 0.10);
     background: rgba(255, 255, 255, 0.10);
@@ -542,7 +544,7 @@ nav ul li a:hover::before {
     line-height: 108.687%;
     text-transform: uppercase;
     text-align: center;
-    padding-top: 70px;
+    padding-top:170px;
 }
 
 
@@ -556,21 +558,16 @@ nav ul li a:hover::before {
 
 .white-line3 {
     position: absolute;
-    top: 6%;
-    left: 30%;
+    top: -50%;
+    left: -65%;
 }
 
 .mb-100 {
     margin-bottom: 100px;
     margin-top: 40px;
 }
-
-.svg-hover:hover {
-    transform: translateY(-20px);
-}
-
-.btn3:hover svg {
-    fill: #FFF;
+ul {
+    padding-left: 0 !important;
 }
 
 .black-line1 {
@@ -594,14 +591,13 @@ nav ul li a:hover::before {
     background: #FFF;
     border-radius: 50%;
     position: absolute;
-    bottom: 88%;
-    right: -5%;
+    bottom: 85%;
+    right: -10%;
     display: none;
 
 }
 
 .center {
-    height: 100vh;
     flex-direction: column;
     display: flex;
     justify-content: center;
@@ -610,7 +606,9 @@ nav ul li a:hover::before {
 .mw-532 {
     max-width: 532px;
 }
-
+.pt-11{
+    padding-top: 11px;
+}
 .pt-20 {
     padding-top: 10px;
 }
@@ -647,6 +645,7 @@ nav ul li a:hover::before {
 
 .sec4:hover {
     transform: scale(1.2);
+    z-index: 3;
 
 }
 
@@ -692,12 +691,6 @@ nav ul li a:hover::before {
     overflow: hidden;
 }
 
-.btn1:hover {
-    background-color: #000000;
-    color: #f3f5fa;
-    border: 2px solid white;
-}
-
 .mt-20 {
     margin-top: 20px;
 }
@@ -708,15 +701,39 @@ nav ul li a:hover::before {
     box-shadow: 0px -1px 11px 0px rgba(255, 255, 255, 0.10);
     backdrop-filter: blur(4.5px);
     height: 47px;
-    width: 92%;
+    width: 100%;
     bottom: 0;
     display: none;
 }
-@media (max-width:576px) {
+.footlogo{
+    width: 100%;
+}
+.pt-101{
+    padding-top: 101px;
+}
+.ptop-75{
+    padding-top: 75px;
+}
+@media (max-width:577.98px) {
     .white-line1 {
         display: none;
     }
-
+    .footerlogo{
+        max-width: 160px;
+        height: 60px;
+    }
+    .btn3{
+        font-size: 14px;
+    }
+    .btn4{
+        font-size: 14px;
+    }
+    .top-line{
+        display: none;
+    }
+    .bottom-line1{
+        display: none;
+    }
     .white-line2 {
         display: none;
     }
@@ -752,33 +769,34 @@ nav ul li a:hover::before {
     .head-h1 {
         font-size: 35px;
     }
+    .pb-121{
+        padding-bottom: 20px;
+    }
+    .pt-120{
+        padding-top: 20px;
+    }
 
 }
 
-@media (max-width:768px) {
-    .mtop-200 {
-        margin-top: 200px !important;
-    }
-
-
-    .white-line3 {
-        position: absolute;
-        top: 5%;
-        left: 16%;
-    }
+@media (max-width:767.98px) {
+.ptop-75{
+    padding-top: 0;
+}
+.sec4-h2{
+    padding-top: 20px;
+}
 }
 
-@media (max-width:992px) {
+@media (max-width:991.98px) {
     .head-h1 {
         text-align: center;
     }
 
-    .sec4-h2 {
-        margin-top: 100px;
-    }
-
-    .mtop-100 {
+ .mtop-100 {
         margin-top: 50px;
+    } 
+    .bg-head{
+        background-size: cover;
     }
     .para-head {
         text-align: center;
@@ -792,9 +810,20 @@ nav ul li a:hover::before {
         justify-content: center;
         display: flex;
     }
+    .ellepis5 {
+        width: 73px;
+        height: 74px;
+        background: #FFF;
+        border-radius: 50%;
+        position: absolute;
+        bottom: 75%;
+        right: -5%;
+        display: none;
+    
+    }
 
     .sec3-card {
-        max-width: 264px;
+     width: 100%;
         margin-top: 20px;
         justify-content: center;
         display: flex;
@@ -809,7 +838,7 @@ nav ul li a:hover::before {
     .ptop-50 {
         padding-top: 50px;
     }
-   
+
 }
 
 @media(max-width:1012px) {
@@ -826,7 +855,8 @@ nav ul li a:hover::before {
         transition: all 1000ms linear;
         background-color: rgb(105, 132, 132);
     }
-    .bg-white1{
+
+    .bg-white1 {
         background: white;
     }
 
@@ -849,7 +879,7 @@ nav ul li a:hover::before {
     #menu {
         z-index: 3;
         position: absolute;
-        right: 10%;
+        right: 1%;
     }
 
     .btns {
