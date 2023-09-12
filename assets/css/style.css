@@ -12,23 +12,6 @@
 .container {
     max-width: 1140px !important;
 }
-nav ul li a::before {
-    content: "";
-    width: 0;
-    height: 1px;
-    position: absolute;
-    left: 50%;
-    bottom: -2%;
-    transition: .3s;
-    background-color: #FFF;
-}
-nav ul li a {
-    position: relative;
-}
-nav ul li a:hover::before {
-    width: 100%;
-    left: 0;
-}
 .logo {
     width: 156px;
 }
@@ -96,8 +79,9 @@ nav ul li a:hover::before {
     line-height: normal;
     cursor: pointer;
     border: none;
+    transition: .4s;
 }
-.font2 {
+.font1:hover {
     color: #FFF;
     font-family: Sunflower;
     font-size: 16px;
@@ -279,8 +263,9 @@ nav ul li a:hover::before {
     gap: 10px;
     border-radius: 82px;
     background: #FFF;
-    border: #FFF;
+    border:1px solid #FFF;
     cursor: pointer;
+    transition: .4s;
 }
 .btn4 {
     color: #FFF;
@@ -297,6 +282,7 @@ nav ul li a:hover::before {
     align-items: flex-start;
     gap: 10px;
     cursor: pointer;
+    transition: .4s;
 }
 .btn5 {
     color: #0f0f0f;
@@ -313,6 +299,28 @@ nav ul li a:hover::before {
     gap: 10px;
     transform: all 200ms linear;
     border: 1px solid black;
+}
+.span1{
+    rotate: 45deg;
+    transition: .4s;
+}
+.span2{
+    rotate: -45deg;
+    top: -10px;
+    position: relative;
+    transition: .4s;
+}
+.span3{
+  display: none !important;
+}
+.span4{
+transition: .4s;
+}
+.span5{
+transition: .4s;
+}
+.span6{
+transition: .4s;
 }
 .spn1 {
     color: var(--White, #FFF);
@@ -619,6 +627,34 @@ border: 2px transparent;
 .ptop-75{
     padding-top: 75px;
 }
+.btn1:hover{
+    color: #FFF;
+    background: transparent;
+    border: 2px solid white;
+    
+}.pt-131{
+    padding-top: 131px;
+}.btn3:hover{
+    color: #FFF;
+    background-color: transparent;
+    border: 1px solid white;
+}
+.btn3:hover svg{
+    fill: #FFF;
+}
+.svg-hover:hover{
+    /* transform: translateY(-20px); */
+   transform: scale(1.2);
+}
+.btn4:hover{
+   background: #FFF;
+   color: black;
+   border: 1px solid black;
+   font-weight: 700;
+}
+.pt-120{
+    padding-top: 120px;
+}
 @media (max-width:576px) {
     .white-line1 {
         display: none;
@@ -681,13 +717,13 @@ border: 2px transparent;
     padding-top: 20px;
 }
 }
-@media (max-width:991.98px) {
+@media (max-width:992px) {
     .head-h1 {
         text-align: center;
     }
- .mtop-100 {
-        margin-top: 50px;
-    } 
+.pb-121{
+    padding-bottom: 30px;
+}
     .bg-head{
         background-size: cover;
     }
@@ -725,6 +761,9 @@ border: 2px transparent;
     .ptop-50 {
         padding-top: 50px;
     }
+    .sec4-h2{
+        padding-top: 30px;
+    }
 }
 @media(max-width:1012px) {
     .mobileView {
@@ -738,7 +777,7 @@ border: 2px transparent;
         height: 100%;
         right: -100%;
         transition: all 1000ms linear;
-        background-color: rgb(105, 132, 132);
+        background-color: rgb(10, 10, 10);
     }        
 .overflow-hide {
     overflow: hidden;
@@ -777,3 +816,8 @@ border: 2px transparent;
         justify-content: space-between
     }
 } 
+@media (max-width:1200px) {
+    .sec4:hover{
+        transform: unset;
+    }
+}
