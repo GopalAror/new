@@ -236,7 +236,7 @@ nav ul li a:hover::before {
     filter: blur(120px);
     position: absolute;
     right: -4%;
-    bottom: 42%;
+    bottom: 20%;
     border-radius: 50%;
     z-index: -1;
 }
@@ -260,9 +260,12 @@ nav ul li a:hover::before {
     filter: blur(120px);
     position: absolute;
     right: -10%;
-    bottom: 65%;
+    bottom: 55%;
     border-radius: 50%;
     z-index: -1;
+}
+.mb-30{
+    margin-bottom: 30px;
 }
 
 .footline {
@@ -687,14 +690,12 @@ ul {
     background: #FFF;
 }
 
-.overflow-hide {
-    overflow: hidden;
-}
-
 .mt-20 {
     margin-top: 20px;
 }
-
+.overflow-hide{
+    overflow: hidden;
+}
 .over {
     border-radius: 0px 0px 8px 8px;
     background: rgba(255, 255, 255, 0.30);
@@ -714,10 +715,11 @@ ul {
 .ptop-75{
     padding-top: 75px;
 }
-@media (max-width:577.98px) {
+@media (max-width:576px) {
     .white-line1 {
         display: none;
     }
+
     .footerlogo{
         max-width: 160px;
         height: 60px;
@@ -778,7 +780,7 @@ ul {
 
 }
 
-@media (max-width:767.98px) {
+@media (max-width:768px) {
 .ptop-75{
     padding-top: 0;
 }
@@ -855,6 +857,10 @@ ul {
         transition: all 1000ms linear;
         background-color: rgb(105, 132, 132);
     }
+        
+.overflow-hide {
+    overflow: hidden;
+}
 
     .bg-white1 {
         background: white;
