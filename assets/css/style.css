@@ -82,13 +82,7 @@
     transition: .4s;
 }
 .font1:hover {
-    color: #FFF;
-    font-family: Sunflower;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    text-decoration: none;
+-webkit-text-stroke: 1px white;
 }
 .pl-150 {
     padding-left: 150px;
@@ -632,9 +626,11 @@ border: 2px transparent;
     background: transparent;
     border: 2px solid white;
     
-}.pt-131{
+}
+.pt-131{
     padding-top: 131px;
-}.btn3:hover{
+}
+.btn3:hover{
     color: #FFF;
     background-color: transparent;
     border: 1px solid white;
